@@ -1,0 +1,70 @@
+/* CSS untuk table */
+.first-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.first-table th,
+.first-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.first-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Hover effect pada baris tabel */
+.first-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Link pada kolom 'Input Kehadiran' */
+.first-table tbody td a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.first-table tbody td a:hover {
+  font-weight: bold;
+}
+
+/* Container untuk tabel */
+.pack-container {
+  margin: 20px auto;
+  max-width: 800px; /* Sesuaikan lebar maksimum sesuai kebutuhan */
+}
+
+/* Header list */
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title-list {
+  font-weight: bold;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
+.price-container span {
+  margin-right: 10px;
+}
+
+/* List kegiatan */
+.lists-1 {
+  list-style: none;
+  padding: 0;
+}
+
+.list-2 {
+  margin-bottom: 10px;
+}

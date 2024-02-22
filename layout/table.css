@@ -1,0 +1,50 @@
+/* CSS untuk table */
+table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #6ff1b5;
+  text-align: left;
+  word-wrap: break-word; /* Memastikan teks tidak melewati batas tabel */
+  max-width: 300px; /* Atur lebar maksimum konten */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td a {
+  color: #000000;
+  text-decoration: none;
+}
+
+td a:hover {
+  font-weight: bold;
+}
+
+.section-title-1 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.section-title-2 {
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.radio-inputs {
+  position: fixed;
+  bottom: 13px;
+  left: 50%; /* Posisi horizontal di tengah */
+  transform: translateX(
+    -50%
+  ); /* Geser ke kiri sebesar setengah dari lebar elemen sendiri */
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  max-width: 400px; /* Atur lebar maksimum */
+  margin: auto;
+  z-index: 999; /* Mengatur z-index agar tombol radio tetap berada di atas konten */
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all 0.15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #82c285;
+  font-weight: 600;
+}
+
+.radio-inputs .radio.checked .name {
+  background-color: #fff;
+  font-weight: 600;
+}
